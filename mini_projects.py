@@ -1,7 +1,5 @@
-def unique_lst(lst):
-    for i in range(0,len(lst)):
-        if lst[i] == lst[i-1]:
-            del lst[i]
-        print(lst)
+def reverse_lst(lst):
+    for i in range(len(lst),0,-1):
+        print(lst[i-1])
 
-unique_lst([11,2,11,3])
+reverse_lst([1,2,3,4,5])
