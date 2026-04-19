@@ -1,0 +1,41 @@
+body {
+  background-color: #376593;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Book card container */
+.book-card {
+  background-color: #ffffff;
+  border: 2px solid #6c63ff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(11, 9, 9, 0.1);
+}
+
+/* Book title heading */
+.book-card h2 {
+  color: #6c63ff;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+/* Link styling */
+.book-card a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #6c63ff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.book-card a:hover {
+  background-color: #574b90;
+}
+
